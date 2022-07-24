@@ -33,10 +33,10 @@ public class App {
         Product[] vect2 = new Product[x];
 
         for (int y = 0; y < x; y++) {
-            System.out.printf("Name of product: ");
+            System.out.printf("Product's name: ");
             sc.nextLine();
             String name = sc.nextLine();
-            System.out.printf("Value of the product: ");
+            System.out.printf("Product value: ");
             double price = sc.nextDouble();
             vect2[y] = new Product(name, price);
         }
